@@ -1,0 +1,21 @@
+{
+  "name": "intro-to-ai-2-backend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/core": "^0.3.26",
+    "@supabase/supabase-js": "^2.47.10",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "langchain": "^0.3.8",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.9"
+  }
+}
